@@ -1,4 +1,4 @@
-This was a small project to create a new page in the WordPress admin menu and display an admin table of posts.  All my edits are in /themes/contacts-db/functions.php (and /themes/contacts-db-child/users.php).  Here are the requirements.
+This was a small project to create a new page in the WordPress admin menu and display an admin table of posts.  
 
 <b>Requirements</b>
 
