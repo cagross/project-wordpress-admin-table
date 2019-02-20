@@ -1,0 +1,16 @@
+CREATE TABLE `wp_users` (  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `user_login` varchar(60) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_pass` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_nicename` varchar(50) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_email` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_url` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_registered` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',  `user_activation_key` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `user_status` int(11) NOT NULL DEFAULT '0',  `display_name` varchar(250) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  PRIMARY KEY (`ID`),  KEY `user_login_key` (`user_login`),  KEY `user_nicename` (`user_nicename`),  KEY `user_email` (`user_email`)) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_users` VALUES('1', 'admin', '$P$Bo8lvtN2ueMW7Lq33Gv4K2SDBoduA0/', 'admin', 'joel@tourvista.com', '', '2017-11-14 01:08:09', '', '0', 'admin');
+INSERT INTO `wp_users` VALUES('8', 'mark', '$P$Bo/Hv/X1.HLFwluVCWwb8O5RLjnbI61', 'mark', 'mcatkins1@gmail.com', 'https://www.butleradamshardwoods.com', '2017-12-22 22:19:38', '', '0', 'Mark Atkins');
+INSERT INTO `wp_users` VALUES('3', 'supadmin', '$P$B57P2Dmed7xh.HS4lQsUBLN..kCexu/', 'supadmin', 'matt@supint.com', '', '2017-11-20 23:58:38', '', '0', 'supadmin');
+INSERT INTO `wp_users` VALUES('4', 'supeditor', '$P$BKThMA2l.XAZ8c2IqZo1OEzkLwttqS.', 'supeditor', 'support@supint.com', '', '2017-11-20 23:59:01', '', '0', 'Matt Cassarino');
+INSERT INTO `wp_users` VALUES('16', 'justin', '$P$BBiHb4i/3lr9yqH2R38zPNCfxConm0.', 'justin', 'j.sperber@butleradamshardwoods.com', '', '2018-12-10 15:03:55', '', '0', 'Justin Sperber');
+INSERT INTO `wp_users` VALUES('15', 'carl', '$P$BwZFMxnd07fNnhLPPCwoupzuB6f9wX0', 'carl', 'support@tourvista.com', '', '2017-12-27 04:27:53', '', '0', 'Carl Schoubye');
+INSERT INTO `wp_users` VALUES('13', 'alicia', '$P$Bx5ReaudjjwZq./Hz3bZKZXfLUyv1m1', 'alicia', 'aliciamoyer76@gmail.com', '', '2017-12-27 04:25:05', '', '0', 'Alicia Moyer');
+INSERT INTO `wp_users` VALUES('12', 'philip', '$P$B0RHaLr1Iuw4WQUYi/fqsYYSSfLDU41', 'philip', 'thecolonistshop@gmail.com', '', '2017-12-27 04:23:03', '', '0', 'Philip Smith');
+INSERT INTO `wp_users` VALUES('18', 'beth', '$P$BrNvisR4PgbnZ/jaQICE6lpPv6qTPU0', 'beth', 'beth@butleradamshardwoods.com', '', '2019-01-29 11:09:06', '', '0', 'Beth Adams');
+/*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;
