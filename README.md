@@ -10,6 +10,7 @@ This was a small project to create a new page in the WordPress admin menu and di
 <li>See this screenshot for an illustration of the final product.</li>
 <li>Above the table, add a row displaying all author names. Next to each author name, in parentheses, display a number indicating how many 'Contacts' that author created. Each name should be a hyperlink, which, when clicked, filters the table by that author name.</li>
 <li>Above the table display a search form with two date fields--Start Date and End Date--and a 'Search Button.' Using this form will filter the table by the start and end dates.</li>
+  <li>See below for a screnshot of the final Reports page.</li>
 </ul>
 
 <b>Approach/Rationale</b>
@@ -19,3 +20,6 @@ This was a small project to create a new page in the WordPress admin menu and di
 <li>I did not copy the WP_List_Table class to my child theme, as suggested in the Codex. That is something I probably should have done.</li>
 <li>All code was added to my theme's functions.php file, with the exception of a small separate users.php file, which was added to the child theme directory. I realize custom code is typically added to a child theme. But in this case, this was a requirement of the client. Actually, the parent theme in-question was already a custom theme (created and implemented by the client).</li></li>
 </ul>
+
+<b>Screenshot of Final Reports Page</b>
+![](screenshot-reports-page.jpg)
