@@ -1,4 +1,4 @@
-This was a small project to create a new page in the WordPress admin menu and display an admin table of posts.  
+This was a small project to create a new page in the WordPress admin menu and display a searchable admin table of posts.  
 
 <b>Requirements</b>
 
